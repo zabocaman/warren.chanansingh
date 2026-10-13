@@ -1,0 +1,1 @@
+Put photos, videos, logos and testimonial headshots in this folder, then point to them from _data/media.json, _data/brands.json or _data/testimonials.json, for example "assets/media/intro.mp4". README.md, "Photos, videos, logos and testimonials", has the steps.

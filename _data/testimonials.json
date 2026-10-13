@@ -1,0 +1,38 @@
+{
+  "_help": "Quotes shown on the home and Work with me pages. Each one is filled with SAMPLE text (marked \"sample\": true) so you can see the layout and simply replace it. For each real quote: replace \"quote\", \"name\" and \"role\", optionally add a square \"photo\" (upload it to assets/media first, at least 200 px) and a short \"result\" tag, then delete the \"sample\" line. Only publish quotes people have agreed to. Samples show a \"Sample · replace\" tag, and they are hidden automatically when show_placeholders is false, so they can never go live by accident.",
+  "show_placeholders": true,
+  "eyebrow": "In their words",
+  "heading": "What the people I’ve worked with say",
+  "items": [
+    {
+      "quote": "Warren doesn't hand you a report, he hands you a decision. He set the lead target with us, beat it, and showed us exactly why the cost per lead kept falling.",
+      "name": "Sample name",
+      "role": "Agency director (sample role)",
+      "photo": "",
+      "result": "614 leads vs a target of 500",
+      "who_to_ask": "A former manager or agency director",
+      "ask_for": "Two sentences on a business result you delivered. A number makes it stronger.",
+      "sample": true
+    },
+    {
+      "quote": "He showed us that each market needed a different channel, moved the budget to match, and explained it so our leadership team understood it in five minutes.",
+      "name": "Sample name",
+      "role": "Marketing lead, insurance provider (sample role)",
+      "photo": "",
+      "result": "1,561 leads in two markets",
+      "who_to_ask": "A client-side marketing lead",
+      "ask_for": "What changed in their numbers, and what you were like to work with.",
+      "sample": true
+    },
+    {
+      "quote": "Warren explains paid media plainly, with real examples and no jargon. People leave his sessions able to plan, launch and read a campaign on their own.",
+      "name": "Sample name",
+      "role": "Workshop participant (sample role)",
+      "photo": "",
+      "result": "Meta Ads 101",
+      "who_to_ask": "A professor, colleague or workshop participant",
+      "ask_for": "How you explain complex ideas and leave teams more capable.",
+      "sample": true
+    }
+  ]
+}

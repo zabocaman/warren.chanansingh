@@ -1,0 +1,52 @@
+{
+  "_help": "The industry strip on the home page. Clients are named by industry only, so there are no client names or logos here. Each item links to a case study in that industry. If you ever show a client logo, get written permission first.",
+  "show_placeholders": false,
+  "eyebrow": "Industries I’ve run campaigns for",
+  "items": [
+    {
+      "name": "Insurance",
+      "logo": "",
+      "case": "insurance-family-plan-leads"
+    },
+    {
+      "name": "Vehicle dealership",
+      "logo": "",
+      "case": "vehicle-dealership-sales-events"
+    },
+    {
+      "name": "Professional sports",
+      "logo": "",
+      "case": "sports-t20-tickets"
+    },
+    {
+      "name": "Energy drinks",
+      "logo": "",
+      "case": "energy-drink-cap-contest"
+    },
+    {
+      "name": "Banking",
+      "logo": "",
+      "case": "bank-christmas-loans"
+    },
+    {
+      "name": "Money transfer",
+      "logo": "",
+      "case": "money-transfer-app"
+    },
+    {
+      "name": "Spirits",
+      "logo": "",
+      "case": "spirits-always-on"
+    },
+    {
+      "name": "Confectionery",
+      "logo": "",
+      "case": "confectionery-always-on"
+    },
+    {
+      "name": "Malt beverages",
+      "logo": "",
+      "case": "malt-beverage-ar-game"
+    }
+  ]
+}

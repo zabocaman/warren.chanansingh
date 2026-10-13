@@ -1,0 +1,16 @@
+# Secrets and local settings never go in the repository
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies and build output (none are needed today)
+node_modules/
+*.log

@@ -1,0 +1,8 @@
+/* TEAM */
+Warren Chanansingh — digital strategist, Toronto
+Contact: warren.chanansingh@hotmail.com
+
+/* SITE */
+Standards: HTML5, CSS3
+Components: none (no third-party JavaScript)
+Fonts: Archivo, Newsreader, IBM Plex Mono (SIL OFL 1.1)

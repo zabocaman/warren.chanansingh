@@ -1,0 +1,23 @@
+{
+  "articles": {
+    "title": "Articles | Warren Chanansingh, Toronto Digital Strategist",
+    "description": "Articles by Warren Chanansingh, a Toronto digital strategist, on strategy, content, social, community, paid media, email, analytics and measurable growth.",
+    "heading": "Notes on digital strategy and measurable growth",
+    "intro": "Articles by Warren Chanansingh, a Toronto digital strategist, on digital strategy, content, social media, community, paid media, email, automation, analytics and building capable teams.",
+    "empty_heading": "The first articles are on the way",
+    "empty_text": "In the meantime, my articles on LinkedIn are the place to read what I'm thinking about.",
+    "empty_link": "https://www.linkedin.com/in/zabocaman/recent-activity/articles/",
+    "empty_link_label": "Read my articles on LinkedIn"
+  },
+  "socials": {
+    "title": "Socials | Warren Chanansingh (zabocaman)",
+    "description": "Follow Warren Chanansingh, a Toronto digital strategist, as zabocaman on LinkedIn, Instagram and GitHub, and subscribe to his articles by RSS.",
+    "heading": "Find me as zabocaman, everywhere",
+    "intro": "The same handle on every platform, chosen when Instagram was new: zaboca, the Trinidad and Tobago name for the avocado. Follow along wherever you already are.",
+    "no_feed_text": "This platform doesn't offer a public feed. Follow along there directly.",
+    "pending_text": "The latest posts appear here after the site's next daily update.",
+    "subscribe_heading": "Get new articles in your feed reader",
+    "subscribe_text": "Add the RSS feed to Feedly, Inoreader, NetNewsWire or any reader, and new articles arrive on their own.",
+    "updated_text": "Feeds refresh once a day. Last updated"
+  }
+}

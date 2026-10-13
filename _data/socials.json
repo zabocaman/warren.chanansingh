@@ -1,0 +1,32 @@
+{
+  "_help": "One entry per account. 'feed' is an RSS or Atom address; leave it empty if the platform has none. Set 'enabled' to false to hide an account. 'icon' is one of: linkedin, instagram, github, rss.",
+  "accounts": [
+    {
+      "name": "LinkedIn",
+      "handle": "zabocaman",
+      "url": "https://www.linkedin.com/in/zabocaman/",
+      "about": "My article series on paid media, plus career updates. The best place to message me.",
+      "feed": "",
+      "icon": "linkedin",
+      "enabled": true
+    },
+    {
+      "name": "Instagram",
+      "handle": "@zabocaman",
+      "url": "https://www.instagram.com/zabocaman/",
+      "about": "Where the zabocaman name started.",
+      "feed": "",
+      "icon": "instagram",
+      "enabled": true
+    },
+    {
+      "name": "GitHub",
+      "handle": "zabocaman",
+      "url": "https://github.com/zabocaman",
+      "about": "The code behind this website.",
+      "feed": "https://github.com/zabocaman.atom",
+      "icon": "github",
+      "enabled": true
+    }
+  ]
+}

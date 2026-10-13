@@ -1,0 +1,54 @@
+name: Build and deploy the website
+
+# Runs whenever you change something in the repository (a new article, a new link, an edited page),
+# and once a day so the Socials page shows your latest posts. It rebuilds the Articles and Socials pages,
+# then publishes the site to GitHub Pages.
+# Setup, once: Settings > Pages > Build and deployment > Source: "GitHub Actions".
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 10 * * *"   # every day at 10:17 UTC (about 6 a.m. in Toronto)
+  workflow_dispatch:         # adds a "Run workflow" button under the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rebuild the Articles and Socials pages
+        run: |
+          pip install markdown==3.7
+          python tools/update_site.py
+      - name: Gather the public files (article sources and tools are left off the website)
+        run: |
+          mkdir -p ../public
+          rsync -a --delete --exclude ".git" --exclude ".github" --exclude "_articles" --exclude "_data" --exclude "_templates" \
+            --exclude "tools" --exclude "README.md" --exclude "LAUNCH-CHECKLIST.md" --exclude "_headers" --exclude ".gitignore" ./ ../public/
+          mv ../public ./_site
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

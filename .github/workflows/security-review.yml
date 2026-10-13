@@ -1,0 +1,25 @@
+name: Security review
+
+# Claude reviews every pull request for security problems (anthropics/claude-code-security-review).
+# Setup: add a repository secret named CLAUDE_API_KEY (Settings > Secrets and variables > Actions).
+# Only run on trusted pull requests: turn on "Require approval for all external contributors".
+
+permissions:
+  pull-requests: write
+  contents: read
+
+on:
+  pull_request:
+
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          fetch-depth: 2
+      - uses: anthropics/claude-code-security-review@main
+        with:
+          comment-pr: true
+          claude-api-key: ${{ secrets.CLAUDE_API_KEY }}

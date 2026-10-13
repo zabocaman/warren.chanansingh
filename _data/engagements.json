@@ -1,0 +1,43 @@
+{
+  "_help": "The engagement packages on the Work with me page. Edit names, details, timelines and prices here. Write a price the way you want it shown, for example \"From $2,500 CAD\". Leave a price empty to show the price_on_request text instead (and set show_placeholders to false so no placeholder label shows).",
+  "show_placeholders": true,
+  "price_on_request": "Scoped to your goal",
+  "items": [
+    {
+      "name": "Growth audit",
+      "for": "Teams spending on digital who want to know what it returns",
+      "outcome": "Know where the budget works, where it leaks, and the three fixes worth the most.",
+      "includes": [
+        "Tracking, channels, email and automation reviewed against your goal",
+        "KPI baselines and benchmarks",
+        "A prioritized fix list, walked through with your leadership"
+      ],
+      "timeline": "About two weeks",
+      "price": ""
+    },
+    {
+      "name": "90-day growth plan",
+      "for": "Teams with one growth goal and no one to own it yet",
+      "outcome": "One goal, one plan, launched with your team and reported against agreed KPIs.",
+      "includes": [
+        "Goal, KPIs and budget agreed in week one",
+        "Campaigns, journeys and tracking built and launched",
+        "Reporting and a hand-over playbook at day 90"
+      ],
+      "timeline": "90 days",
+      "price": ""
+    },
+    {
+      "name": "Team workshop",
+      "for": "Marketing teams that want the skills in-house",
+      "outcome": "Your team plans, runs and reads its own campaigns.",
+      "includes": [
+        "Meta Ads 101, campaign planning or digital media analytics",
+        "Built around your accounts and goals",
+        "Templates and a playbook your team keeps"
+      ],
+      "timeline": "Half or full day",
+      "price": ""
+    }
+  ]
+}

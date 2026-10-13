@@ -1,0 +1,68 @@
+{
+  "_help": "Every photo and video spot on the site. Each one now holds a brand graphic or the animated 60-second intro (made in v1.14 from the site's own copy and published case-study figures). To use your own photo or video instead, upload it to assets/media, put its path in \"src\" (for example \"assets/media/workshop.jpg\") and describe it in \"alt\". Videos: MP4, with an optional poster image and captions file (.vtt). A spot used on several pages fills them all. \"label\" says what a real photo there should show.",
+  "show_placeholders": true,
+  "slots": {
+    "intro-video": {
+      "type": "video",
+      "ratio": "16/9",
+      "used_on": "Home, and the top of Work with me (it replaces your portrait there once added)",
+      "label": "A 60-second intro to camera: what you measure, how you report to leadership, and your first 90 days",
+      "spec": "MP4, 16:9, under 20 MB, with captions",
+      "src": "assets/media/intro-60s.mp4",
+      "poster": "assets/media/intro-60s-poster.webp",
+      "captions": "",
+      "alt": "A 60-second animated intro: how Warren ties marketing spend to revenue, the KPIs he reports to leadership, proof from his case studies, and his first 90 days",
+      "caption": "60 seconds, no sound needed."
+    },
+    "photo-presenting": {
+      "type": "photo",
+      "ratio": "4/3",
+      "used_on": "About",
+      "label": "You presenting results to a leadership team",
+      "spec": "JPG or WebP, 4:3, at least 1600 px wide",
+      "src": "assets/media/results-review.webp",
+      "alt": "Results review slide: 614 leads against a target of 500 for an insurance provider in Jamaica, with a cost per lead of $1.95 USD, 130K people reached and a 1.65% engagement rate",
+      "caption": "A results review, built from the insurance case study."
+    },
+    "photo-workshop": {
+      "type": "photo",
+      "ratio": "4/3",
+      "used_on": "Expertise (Training) and About",
+      "label": "You leading a workshop or class",
+      "spec": "JPG or WebP, 4:3, at least 1600 px wide",
+      "src": "assets/media/workshop-meta-ads-101.webp",
+      "alt": "Title card for Meta Ads 101, a workshop by Warren Chanansingh for The Creative School at Toronto Metropolitan University, with his portrait",
+      "caption": "Meta Ads 101, a workshop for The Creative School at TMU."
+    },
+    "photo-working": {
+      "type": "photo",
+      "ratio": "4/3",
+      "used_on": "About",
+      "label": "A candid shot of you at work: planning, reviewing results or with your team",
+      "spec": "JPG or WebP, 4:3, at least 1600 px wide",
+      "src": "assets/media/first-90-days.webp",
+      "alt": "The first 90 days in three steps: listen and set baselines, fix and launch, then scale and hand over, each with its deliverable",
+      "caption": "How the first 90 days are planned."
+    },
+    "shot-dashboard": {
+      "type": "photo",
+      "ratio": "16/10",
+      "used_on": "Expertise (Digital analytics)",
+      "label": "A dashboard or report you built. Blur client names and figures if needed",
+      "spec": "PNG or WebP screenshot, 16:10, at least 1600 px wide",
+      "src": "assets/media/dashboard.webp",
+      "alt": "Dashboard view of the 2025 professional sports campaign: 201,400 link clicks, 27.4M impressions, a 1.18% best click-through rate in Jamaica, link clicks by market, and click-through rate and frequency by market",
+      "caption": "A dashboard view, rebuilt from the professional sports case study."
+    },
+    "shot-automation": {
+      "type": "photo",
+      "ratio": "16/10",
+      "used_on": "Expertise (Marketing automation)",
+      "label": "An automation flow or customer-journey map you designed",
+      "spec": "PNG or WebP, 16:10, at least 1600 px wide",
+      "src": "assets/media/automation-flow.webp",
+      "alt": "Lead-to-customer flow: an ad on Meta or Google, a lead form or WhatsApp message, an instant reply, a CRM record and lead score, then either a nurture journey that re-scores the lead or a sales hand-off, ending in a customer",
+      "caption": "How a lead-to-customer flow is mapped."
+    }
+  }
+}
